@@ -51,5 +51,10 @@ TODO: Fix with own image*/
 
 #map {
   height: 250px;
-  width: 50%;
+  width: 100%;
+}
+
+.icon_custom {
+  color: #76428A;
+  padding: 20px;
 }
