@@ -58,3 +58,8 @@ TODO: Fix with own image*/
   color: #76428A;
   padding: 20px;
 }
+
+/* TODO: Need to figure out how to color correctly for the hover animation still*/
+#myNavbar {
+  background-color: #76428A;
+}
