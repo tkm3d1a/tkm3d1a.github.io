@@ -2,16 +2,17 @@
 
 // Initialize and add the map
 function initMap() {
-  // The location of Uluru
-  const uluru = { lat: -25.344, lng: 131.031 };
-  // The map, centered at Uluru
+  // The location of...
+  // Currently: Hoboken, NJ
+  const pointerLoc = { lat: 40.744, lng: 74.032 };
+  // The map, centered at pointerLoc
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 4,
-    center: uluru,
+    center: pointerLoc,
   });
-  // The marker, positioned at Uluru
+  // The marker, positioned at pointerLoc
   const marker = new google.maps.Marker({
-    position: uluru,
+    position: pointerLoc,
     map: map,
   });
 }
