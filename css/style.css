@@ -27,7 +27,7 @@ Second image (Portfolio)
 TODO: Fix with own image
 */
 .bgimg-2 {
-  background-image: url("/w3images/parallax2.jpg");
+  background-image: url("/img/unsplash_code_1.jpg");
   min-height: 400px;
 }
 
@@ -50,7 +50,7 @@ TODO: Fix with own image*/
 }
 
 #map {
-  height: 250px;
+  height: 300px;
   width: 100%;
 }
 

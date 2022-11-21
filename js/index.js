@@ -4,7 +4,7 @@
 function initMap() {
   // The location of...
   // Currently: Hoboken, NJ
-  const pointerLoc = { lat: 40.744, lng: 74.032 };
+  const pointerLoc = { lat: 40.7452, lng: -74.0347 };
   // The map, centered at pointerLoc
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 4,
