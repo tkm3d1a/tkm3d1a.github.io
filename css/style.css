@@ -14,20 +14,18 @@ body, html {
 }
 
 /* 
-First image (Logo. Full height) 
-TODO: Fix with own image
+First image (Logo. Full height)
 */
 .bgimg-1 {
-  background-image: url('/w3images/parallax1.jpg'); 
+  background-image: url('../img/purple-mountains.jpg'); 
   min-height: 100%;
 }
 
 /* 
 Second image (Portfolio) 
-TODO: Fix with own image
 */
 .bgimg-2 {
-  background-image: url("/img/unsplash_code_1.jpg");
+  background-image: url("../img/unsplash_code_1.jpg");
   min-height: 400px;
 }
 
@@ -59,7 +57,17 @@ TODO: Fix with own image*/
   padding: 20px;
 }
 
-/* TODO: Need to figure out how to color correctly for the hover animation still*/
 #myNavbar {
   background-color: #76428A;
+  color: #f4dbde;
 }
+
+.cust-Center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+/* .nav-cust {
+  color: #f4dbde;
+} */

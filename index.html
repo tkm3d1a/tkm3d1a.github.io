@@ -60,7 +60,9 @@
 
   <!-- Container (About me Section) -->
   <div class="w3-content w3-container w3-padding-64" id="about">
-    <h3 class="w3-center">ABOUT ME</h3>
+    <div class="w3-center">
+      <span class="w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity ">ABOUT ME</span>
+    </div>
     <p class="w3-center"><em>Mechanical Engineering Background with Computer Science Aspirations...</em></p>
     <!--TODO: Fill out ABOUT me section?-->
     <p>
@@ -94,9 +96,11 @@
   </div>
 
   <!-- Projects Section -->
+  <!-- TODO: Build/Add cards somehow? -->
+  <!-- FIXME: Add image reference links as well, call out unspalsh etc -->
   <div class="bgimg-2 w3-display-container w3-opacity-min" id="projects">
     <div class="w3-display-middle">
-      <span class="w3-xlarge w3-text-black w3-wide">PROJECTS</span>
+      <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">PROJECTS</span>
     </div>
   </div>
 
@@ -120,7 +124,8 @@
         <p>
           Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note, <em>but really just don't show up all willy nilly</em>:
         </p>
-        <form action="/action_page.php" target="_blank">
+        <!-- TODO: Need to enable this button to send emails, modify with the action field. Possible JS or api call somewhere? -->
+        <form action="/" target="_blank">
           <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
             <div class="w3-half">
               <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
