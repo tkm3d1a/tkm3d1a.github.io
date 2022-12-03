@@ -7,7 +7,7 @@ function initMap() {
   const pointerLoc = { lat: 40.7452, lng: -74.0347 };
   // The map, centered at pointerLoc
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 4,
+    zoom: 8,
     center: pointerLoc,
   });
   // The marker, positioned at pointerLoc
