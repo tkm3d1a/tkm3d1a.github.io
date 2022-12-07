@@ -8,7 +8,6 @@
 
 <!--TODO: Favicon custom-->
 <!--TODO: Gather images to fluff up page-->
-<!--TODO: Add background or color to navbar-->
 
 <html lang="en">
 <head>
@@ -21,7 +20,7 @@
   <link rel="stylesheet" href="/css/style.css">
   <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
 
-  <script type="module" src="/js/index.js"></script>
+  <script type="text/javascript" src="/js/index.js"></script>
   <title>Tkm3d1a's Homepage</title>
 </head>
 
@@ -34,21 +33,23 @@
         <i class="fa fa-bars"></i>
       </a>
       <a href="#home" class="w3-bar-item w3-button">HOME</a>
-      <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-      <a href="#projects" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PROJECTS</a>
-      <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+      <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT </a>
+      <a href="#projects" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PROJECTS </a>
+      <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT </a>
+      <!-- TODO: Add search field? -->
       <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
         <i class="fa fa-search"></i>
       </a>
     </div>
   
     <!-- Navbar on small screens -->
-    <!-- <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium small-navbar">
       <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-      <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PROJECTS</a>
+      <a href="#projects" class="w3-bar-item w3-button" onclick="toggleFunction()">PROJECTS</a>
       <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+      <!-- TODO: Add search field? -->
       <a href="#" class="w3-bar-item w3-button">SEARCH</a>
-    </div> -->
+    </div>
   </div>
 
   <!-- Container (Hero image Section) -->
@@ -124,8 +125,7 @@
         <p>
           Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note, <em>but really just don't show up all willy nilly</em>:
         </p>
-        <!-- TODO: Need to enable this button to send emails, modify with the action field. Possible JS or api call somewhere? -->
-        <form action="/" target="_blank">
+        <form target="_blank" action="https://formsubmit.co/0ef19f640bb405d88650b3aa2a60d684" method="POST">
           <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
             <div class="w3-half">
               <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
